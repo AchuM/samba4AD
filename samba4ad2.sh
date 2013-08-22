@@ -2,10 +2,10 @@
 
 
 #Variables
-FQDN=giz.ethiopia
-DN=ETHIOPIA
+FQDN=dc1.local
+DN=mydomain
 NSE=8.8.8.8 #NS externe/forwarder
-APW=Root@dom123
+APW=Password@3
 SHARE=/mnt/scripts/
 
 
@@ -41,15 +41,16 @@ sed -i "s/\${REALM\([^}]*\)}"/$Newvariable"/g" /usr/local/samba/share/setup/krb5
 #verification of operation of Kerberos
 kinit administrator@$Newvariable
 klist -e
+
 echo =================NTP CONFIGURATION====================
 # Registration time servers and service configuration
-# sed -i 's/0.debian.pool.ntp.org/0.fr.pool.ntp.org/' /etc/ntp.conf
-# sed -i 's/1.debian.pool.ntp.org/1.fr.pool.ntp.org/' /etc/ntp.conf
-# sed -i 's/2.debian.pool.ntp.org/2.fr.pool.ntp.org/' /etc/ntp.conf
-# sed -i 's/3.debian.pool.ntp.org/3.fr.pool.ntp.org/' /etc/ntp.conf
-#service ntp restart
-#ntpdate 0.fr.pool.ntp.org
-#ntpq -p
+ sed -i 's/0.debian.pool.ntp.org/0.fr.pool.ntp.org/' /etc/ntp.conf
+ sed -i 's/1.debian.pool.ntp.org/1.fr.pool.ntp.org/' /etc/ntp.conf
+ sed -i 's/2.debian.pool.ntp.org/2.fr.pool.ntp.org/' /etc/ntp.conf
+ sed -i 's/3.debian.pool.ntp.org/3.fr.pool.ntp.org/' /etc/ntp.conf
+service ntp restart
+ntpdate 0.fr.pool.ntp.org
+ntpq -p
 
 echo =================HOMEFOLDERS CONFIGURATION============
 #Configuration users homefolders
