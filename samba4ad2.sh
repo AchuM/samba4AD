@@ -1,5 +1,6 @@
 #!/bin/sh
-
+# # You should run this with root privilage
+# # By Achu
 
 #Variables
 FQDN=dc1.local
