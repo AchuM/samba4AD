@@ -1,6 +1,6 @@
 # # !/bin/sh
-# # Ce script doit être executé en contexte superadministrateur
-# # Les variables sont a modifier en fonction du contexte
+# # You should run this with root privilage.
+# # By Achu
 
 # Variables
 IP=10.17.55.122
@@ -12,8 +12,8 @@ NSI=10.17.55.103 #NS interne
 # NSI2= X.X.X.X
 NSE=8.8.8.8 #NS externe/forwarder
 # NSE2= X.X.X.X
-FQDN=giz.ethiopia
-HN=ethiopia
+FQDN=dc1.local 
+HN=mydomain
 ETH=eth0
 
 
