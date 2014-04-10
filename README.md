@@ -11,8 +11,6 @@ How to use this script
 * Run samba4ad1.sh first 
 * Reboot 
 * Run samba2ad2.sh 
-* Reboot 
-* 
 
 Note
 --------
