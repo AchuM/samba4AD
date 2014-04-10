@@ -1,6 +1,11 @@
 #!/bin/sh
+# # Author  Achu Abebe
+# # Author Email:  Achusime@gmail.com 
+# # I'm from Ethiopia/Addis Ababa, If you have interesting project for me, Please contact me :) 
+# # G+ https://plus.google.com/+AchuAbebe
+
 # # You should run this with root privilage
-# # By Achu
+
 
 #Variables
 FQDN=dc1.local
