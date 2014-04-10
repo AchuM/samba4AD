@@ -1,7 +1,10 @@
 # # !/bin/sh
-# # You should run this with root privilage.
-# # By Achu
+# # Author  Achu Abebe
+# # Author Email:  Achusime@gmail.com 
+# # I'm from Ethiopia/Addis Ababa, If you have interesting project for me, Please contact me :) 
+# # G+ https://plus.google.com/+AchuAbebe
 
+# # You should run this with root privilage.
 # Variables
 IP=10.17.55.122
 NM=255.255.255.0
