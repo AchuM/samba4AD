@@ -1,8 +1,7 @@
 #!/bin/sh
 # # Author  Achu Abebe
 # # Author Email:  Achusime@gmail.com 
-# # I'm from Ethiopia/Addis Ababa, If you have interesting project for me, Please contact me :) 
-# # G+ https://plus.google.com/+AchuAbebe
+# # Hire me: https://www.upwork.com/freelancers/~01d73d98264c2fa4f4 
 
 # # You should run this with root privilage
 
