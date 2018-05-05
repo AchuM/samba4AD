@@ -16,7 +16,7 @@ How to use this script
 
 Please refer to [Samba4 Documentation](https://wiki.samba.org/index.php/Samba) for more Samba4 help.
 
- 
+## Hire me on [UpWork](https://www.upwork.com/freelancers/~01d73d98264c2fa4f4) 
  
 
 
