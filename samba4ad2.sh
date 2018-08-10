@@ -1,7 +1,6 @@
 #!/bin/sh
-# # Author  Achu Abebe
-# # Author Email:  Achusime@gmail.com 
-# # Hire me: https://www.upwork.com/freelancers/~01d73d98264c2fa4f4 
+# Author  Achu Abebe
+# Email:  Achusime@gmail.com 
 
 # # You should run this with root privilage
 

@@ -1,7 +1,6 @@
-# # !/bin/sh
-# # Author  Achu Abebe
-# # Author Email:  Achusime@gmail.com 
-# # Hire me: https://www.upwork.com/freelancers/~01d73d98264c2fa4f4 
+#!/bin/sh
+#Author  Achu Abebe
+#Email:  Achusime@gmail.com 
 
 
 # # You should run this with root privilage.
@@ -58,5 +57,5 @@ git clean -x -f -d # Disposal of obsolete files eventually
 ./configure --enable-debug --enable-selftest #Configuration
 make # Compilation
 make install # Installation
-echo ========================REBOOT NOW==========================
+echo ========================PLEASE REBOOT NOW and Have some Ethiopian Coffee==========================
 exit
